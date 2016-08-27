@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib",
+  "name": "bitcore-lib-zcash",
   "version": "0.13.19",
-  "description": "A pure and powerful JavaScript Bitcoin library.",
+  "description": "A pure and powerful JavaScript Zcash library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -54,10 +54,14 @@
     {
       "name": "Wei Lu",
       "email": "luwei.here@gmail.com"
+    },
+    {
+      "name": "Jack Grigg",
+      "email": "jack@z.cash"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "zcash",
     "transaction",
     "address",
     "p2p",
@@ -74,7 +78,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/str4d/bitcore-lib-zcash.git"
   },
   "browser": {
     "request": "browser-request"
@@ -88,7 +92,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "bitcore-build-zcash": "str4d/bitcore-build-zcash",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
