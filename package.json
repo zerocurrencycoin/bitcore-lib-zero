@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-lib-zcash",
+  "name": "bitcore-lib-zero",
   "version": "0.13.19",
-  "description": "A pure and powerful JavaScript Zcash library.",
+  "description": "A pure and powerful JavaScript Zero library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -61,7 +61,7 @@
     }
   ],
   "keywords": [
-    "zcash",
+    "zero",
     "transaction",
     "address",
     "p2p",
@@ -78,7 +78,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/str4d/bitcore-lib-zcash.git"
+    "url": "https://github.com/ProphetAlgorithms/bitcore-lib-zero.git"
   },
   "browser": {
     "request": "browser-request"
@@ -92,7 +92,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build-zcash": "str4d/bitcore-build-zcash",
+    "bitcore-build-zero": "github.com/ProphetAlgorithms/bitcore-build-zero",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
