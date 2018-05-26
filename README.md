@@ -14,11 +14,11 @@ Bitcoin is a powerful new peer-to-peer platform for the next generation of finan
 ## Get Started
 
 ```
-npm install bitcore-lib
+npm install ProphetAlgorithms/bitcore-lib-zero
 ```
 
 ```
-bower install bitcore-lib
+bower install ProphetAlgorithms/bitcore-lib-zero
 ```
 
 ## Documentation
@@ -75,8 +75,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/bitpay/bitcore-lib
-cd bitcore-lib
+git clone https://github.com/ProphetAlgorithms/bitcore-lib-zero
+cd bitcore-lib-zero
 npm install
 ```
 
